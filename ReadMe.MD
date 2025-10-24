@@ -11,7 +11,7 @@
 
 #
 ```diff
-👤 >> 16 years old, french developper.
+👤 >> 17 years old, french developper.
 🗣️ >> sysys.owo@gmail.com
 🐺 >> Python, JavaScript, GoLang & more
 ```
