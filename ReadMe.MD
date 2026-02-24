@@ -19,9 +19,6 @@
 
 <div align="center">
     <div>
-        <img src="https://github-readme-stats.vercel.app/api?username=Askin242&theme=default&show_icons=true&hide_border=false&count_private=true">
-    </div>
-    <div>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Askin242&theme=default&hide_border=true">
+        <img src="https://nirzak-streak-stats.vercel.app?user=Askin242&theme=tokyonight-duo">
     </div>
 </div>
