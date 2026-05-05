@@ -19,6 +19,6 @@
 
 <div align="center">
     <div>
-        <img src="https://nirzak-streak-stats.vercel.app?user=Askin242&theme=tokyonight-duo">
+        <img src="https://readme-stats-github.pages.dev/api?username=Askin242&theme=dark">
     </div>
 </div>
