@@ -2,6 +2,7 @@
 
 <p align="center">
   <b>🖤 Follow me here:</b><br>
+  <a href="https://sylvestre.dev/">Portfolio</a> |
   <a href="https://discord.gg/ZZDHa52cVJ">Discord</a> |
   <a href="https://t.me/askineiko">Telegram</a>
   <br><br>
