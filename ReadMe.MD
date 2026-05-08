@@ -21,19 +21,19 @@ I focus on what runs below the surface — reverse engineering anti-bot systems,
 <!-- ═══════════════════ PROJECTS ═══════════════════ -->
 
 <a href="https://castlesolver.cc/">
-  <img src="./assets/project-castle.svg" alt="CastleSolver" width="430"/>
+  <img src="./assets/project-castle.svg" alt="CastleSolver" width="380"/>
 </a>
 <a href="https://github.com/Askin242/UberEats-Device-Data">
-  <img src="./assets/project-ubereats.svg" alt="UberEats Device Data" width="430"/>
+  <img src="./assets/project-ubereats.svg" alt="UberEats Device Data" width="380"/>
 </a>
 
 <br/>
 
 <a href="https://github.com/Askin242/RiotGames-Mobile-2FA-Bypass">
-  <img src="./assets/project-riot.svg" alt="Riot Mobile 2FA" width="430"/>
+  <img src="./assets/project-riot.svg" alt="Riot Mobile 2FA" width="380"/>
 </a>
 <a href="https://stake.com/casino/games/meowgames-boba-blitz">
-  <img src="./assets/project-boba.svg" alt="Boba Blitz" width="430"/>
+  <img src="./assets/project-boba.svg" alt="Boba Blitz" width="380"/>
 </a>
 
 <br/>
