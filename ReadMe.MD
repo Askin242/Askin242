@@ -10,7 +10,7 @@
 
 <h3>17 y/o CS Student @ Ynov Bordeaux · France</h3>
 
-I focus on what runs below the surface — reverse engineering anti-bot systems,<br/>analyzing browser fingerprinting, and building tools that go deeper than the docs.
+I focus on what runs below the surface - reverse engineering anti-bot systems,<br/>analyzing browser fingerprinting, and building tools that go deeper than the docs.
 
 <br/>
 
