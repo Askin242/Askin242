@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <defs>
+    <linearGradient id="sk-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07070e"/>
+      <stop offset="100%" stop-color="#0d1120"/>
+    </linearGradient>
+    <linearGradient id="sk-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="15%" stop-color="#ff4d6a"/>
+      <stop offset="85%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <filter id="sk-glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="card-shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+    <pattern id="sk-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="0.5" fill="#1e293b" opacity="0.3"/>
+    </pattern>
+    <clipPath id="sk-clip">
+      <rect width="900" height="320" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    @keyframes sk-pulse {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.8; }
+    }
+    .sk-pulse { animation: sk-pulse 3s ease-in-out infinite; }
+  </style>
+
+  <g clip-path="url(#sk-clip)">
+    <!-- Background -->
+    <rect width="900" height="320" fill="url(#sk-bg)"/>
+    <rect width="900" height="320" fill="url(#sk-grid)"/>
+
+    <!-- Section header -->
+    <text x="450" y="38" text-anchor="middle" font-family="'Courier New', 'Consolas', monospace" font-size="13" fill="#8b949e" letter-spacing="6">
+      <tspan fill="#ff4d6a">&lt;</tspan> TECH STACK <tspan fill="#00d4ff">/&gt;</tspan>
+    </text>
+    <rect x="100" y="50" width="700" height="1" fill="url(#sk-accent)" opacity="0.3"/>
+
+    <!-- === ROW 1: Languages === -->
+    <text x="65" y="82" font-family="'Courier New', 'Consolas', monospace" font-size="9" fill="#6e7681" letter-spacing="2">LANGUAGES</text>
+
+    <!-- JavaScript -->
+    <g filter="url(#card-shadow)">
+      <rect x="55" y="92" width="120" height="52" rx="6" fill="#161b22" stroke="#f7df1e" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="80" cy="118" r="10" fill="#f7df1e" opacity="0.15"/>
+      <text x="80" y="122" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#f7df1e">JS</text>
+      <text x="115" y="114" font-family="'Courier New', monospace" font-size="10" fill="#e6edf3">JavaScript</text>
+      <text x="115" y="128" font-family="'Courier New', monospace" font-size="8" fill="#6e7681">ES2024</text>
+    </g>
+
+    <!-- Python -->
+    <g filter="url(#card-shadow)">
+      <rect x="190" y="92" width="120" height="52" rx="6" fill="#161b22" stroke="#3776ab" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="215" cy="118" r="10" fill="#3776ab" opacity="0.15"/>
+      <text x="215" y="122" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#3776ab">PY</text>
+      <text x="250" y="114" font-family="'Courier New', monospace" font-size="10" fill="#e6edf3">Python</text>
+      <text x="250" y="128" font-family="'Courier New', monospace" font-size="8" fill="#6e7681">3.12+</text>
+    </g>
+
+    <!-- Go -->
+    <g filter="url(#card-shadow)">
+      <rect x="325" y="92" width="120" height="52" rx="6" fill="#161b22" stroke="#00add8" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="350" cy="118" r="10" fill="#00add8" opacity="0.15"/>
+      <text x="350" y="122" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#00add8">GO</text>
+      <text x="385" y="114" font-family="'Courier New', monospace" font-size="10" fill="#e6edf3">Golang</text>
+      <text x="385" y="128" font-family="'Courier New', monospace" font-size="8" fill="#6e7681">backend</text>
+    </g>
+
+    <!-- TypeScript -->
+    <g filter="url(#card-shadow)">
+      <rect x="460" y="92" width="120" height="52" rx="6" fill="#161b22" stroke="#3178c6" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="485" cy="118" r="10" fill="#3178c6" opacity="0.15"/>
+      <text x="485" y="122" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#3178c6">TS</text>
+      <text x="520" y="114" font-family="'Courier New', monospace" font-size="10" fill="#e6edf3">TypeScript</text>
+      <text x="520" y="128" font-family="'Courier New', monospace" font-size="8" fill="#6e7681">typed JS</text>
+    </g>
+
+    <!-- Java -->
+    <g filter="url(#card-shadow)">
+      <rect x="595" y="92" width="120" height="52" rx="6" fill="#161b22" stroke="#ed8b00" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="620" cy="118" r="10" fill="#ed8b00" opacity="0.15"/>
+      <text x="620" y="122" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#ed8b00">JV</text>
+      <text x="655" y="114" font-family="'Courier New', monospace" font-size="10" fill="#e6edf3">Java</text>
+      <text x="655" y="128" font-family="'Courier New', monospace" font-size="8" fill="#6e7681">JVM</text>
+    </g>
+
+    <!-- HTML/CSS -->
+    <g filter="url(#card-shadow)">
+      <rect x="730" y="92" width="120" height="52" rx="6" fill="#161b22" stroke="#e34c26" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="755" cy="118" r="10" fill="#e34c26" opacity="0.15"/>
+      <text x="755" y="122" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#e34c26">&#60;/&#62;</text>
+      <text x="790" y="114" font-family="'Courier New', monospace" font-size="10" fill="#e6edf3">HTML/CSS</text>
+      <text x="790" y="128" font-family="'Courier New', monospace" font-size="8" fill="#6e7681">semantic</text>
+    </g>
+
+    <!-- === ROW 2: Specializations === -->
+    <text x="65" y="178" font-family="'Courier New', 'Consolas', monospace" font-size="9" fill="#6e7681" letter-spacing="2">SPECIALIZATIONS</text>
+
+    <!-- Reverse Engineering -->
+    <g filter="url(#card-shadow)">
+      <rect x="55" y="188" width="190" height="52" rx="6" fill="#161b22" stroke="#ff4d6a" stroke-width="1" stroke-opacity="0.3"/>
+      <rect x="55" y="188" width="3" height="52" rx="1" fill="#ff4d6a" opacity="0.6"/>
+      <text x="72" y="210" font-family="'Courier New', monospace" font-size="11" fill="#e6edf3">Reverse Engineering</text>
+      <text x="72" y="228" font-family="'Courier New', monospace" font-size="8" fill="#ff4d6a" opacity="0.7">binary · script · protocol</text>
+    </g>
+
+    <!-- Anti-Bot Analysis -->
+    <g filter="url(#card-shadow)">
+      <rect x="260" y="188" width="190" height="52" rx="6" fill="#161b22" stroke="#a855f7" stroke-width="1" stroke-opacity="0.3"/>
+      <rect x="260" y="188" width="3" height="52" rx="1" fill="#a855f7" opacity="0.6"/>
+      <text x="277" y="210" font-family="'Courier New', monospace" font-size="11" fill="#e6edf3">Anti-Bot Analysis</text>
+      <text x="277" y="228" font-family="'Courier New', monospace" font-size="8" fill="#a855f7" opacity="0.7">challenge · solver · bypass</text>
+    </g>
+
+    <!-- Browser Fingerprinting -->
+    <g filter="url(#card-shadow)">
+      <rect x="465" y="188" width="190" height="52" rx="6" fill="#161b22" stroke="#00d4ff" stroke-width="1" stroke-opacity="0.3"/>
+      <rect x="465" y="188" width="3" height="52" rx="1" fill="#00d4ff" opacity="0.6"/>
+      <text x="482" y="210" font-family="'Courier New', monospace" font-size="11" fill="#e6edf3">Fingerprinting</text>
+      <text x="482" y="228" font-family="'Courier New', monospace" font-size="8" fill="#00d4ff" opacity="0.7">canvas · webgl · device</text>
+    </g>
+
+    <!-- Web Automation -->
+    <g filter="url(#card-shadow)">
+      <rect x="670" y="188" width="180" height="52" rx="6" fill="#161b22" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.3"/>
+      <rect x="670" y="188" width="3" height="52" rx="1" fill="#f59e0b" opacity="0.6"/>
+      <text x="687" y="210" font-family="'Courier New', monospace" font-size="11" fill="#e6edf3">Web Automation</text>
+      <text x="687" y="228" font-family="'Courier New', monospace" font-size="8" fill="#f59e0b" opacity="0.7">headless · stealth · scraping</text>
+    </g>
+
+    <!-- === ROW 3: Tools === -->
+    <text x="65" y="274" font-family="'Courier New', 'Consolas', monospace" font-size="9" fill="#6e7681" letter-spacing="2">TOOLS</text>
+
+    <!-- Tool badges -->
+    <rect x="55" y="282" width="58" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+    <text x="84" y="297" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#8b949e">Node.js</text>
+
+    <rect x="123" y="282" width="48" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+    <text x="147" y="297" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#8b949e">Git</text>
+
+    <rect x="181" y="282" width="52" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+    <text x="207" y="297" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#8b949e">Linux</text>
+
+    <rect x="243" y="282" width="60" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+    <text x="273" y="297" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#8b949e">Docker</text>
+
+    <rect x="313" y="282" width="50" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+    <text x="338" y="297" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#8b949e">Frida</text>
+
+    <rect x="373" y="282" width="72" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+    <text x="409" y="297" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#8b949e">Burp Suite</text>
+
+    <rect x="455" y="282" width="54" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+    <text x="482" y="297" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#8b949e">PixiJS</text>
+
+    <rect x="519" y="282" width="44" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+    <text x="541" y="297" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#8b949e">IDA</text>
+
+    <!-- Border -->
+    <rect width="900" height="320" rx="10" fill="none" stroke="#1a1a30" stroke-width="1"/>
+  </g>
+</svg>
