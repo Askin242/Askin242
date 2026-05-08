@@ -6,7 +6,7 @@
 
 <!-- ═══════════════════ AVATAR + ABOUT ═══════════════════ -->
 
-<br><br>
+<br>
 
 **`17 y/o CS Student @ Ynov Bordeaux · France`**
 
