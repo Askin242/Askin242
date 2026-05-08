@@ -4,9 +4,9 @@
 
 <img src="./assets/header.svg" alt="Sylvestre Graziani" width="900"/>
 
-<br/><br/>
-
 <!-- ═══════════════════ AVATAR + ABOUT ═══════════════════ -->
+
+<br>
 
 <img src="./avatar.jpg" width="160" height="160" alt="avatar" style="border-radius: 50%;"/>
 
@@ -48,16 +48,12 @@
 
 <img src="./assets/stats-header.svg" alt="GitHub Analytics" width="900"/>
 
-<br/><br/>
-
 <a href="https://github.com/Askin242">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Askin242&hide_border=true&background=0d1117&ring=ff4d6a&fire=ff4d6a&currStreakLabel=00d4ff&sideLabels=8b949e&currStreakNum=e6edf3&sideNums=e6edf3&dates=30363d"/>
     <img src="https://streak-stats.demolab.com?user=Askin242&hide_border=true&background=0d1117&ring=ff4d6a&fire=ff4d6a&currStreakLabel=00d4ff&sideLabels=8b949e&currStreakNum=e6edf3&sideNums=e6edf3&dates=30363d" alt="GitHub Streak" width="520"/>
   </picture>
 </a>
-
-<br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Askin242&bg_color=0d1117&color=8b949e&line=ff4d6a&point=00d4ff&area=true&area_color=ff4d6a&hide_border=true" alt="Activity Graph" width="900"/>
 
@@ -70,8 +66,6 @@
 <!-- ═══════════════════ CONNECT ═══════════════════ -->
 
 <sub>C O N N E C T</sub>
-
-<br/><br/>
 
 <a href="https://github.com/Askin242">
   <img src="./assets/btn-github.svg" alt="GitHub" height="42"/>
@@ -91,7 +85,4 @@
 <sub>Made with &#9829; - Sylvestre</sub>
 
 <br/>
-
-<img src="https://komarev.com/ghpvc/?username=Askin242&style=flat-square&color=0d1117&label=profile+views&labelColor=0d1117" alt="Profile Views"/>
-
 </div>
