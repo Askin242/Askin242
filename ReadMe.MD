@@ -80,9 +80,6 @@
   <img src="./assets/btn-portfolio.svg" alt="Portfolio" height="42"/>
 </a>
 
-<br/><br/>
-
-<sub>Made with &#9829; - Sylvestre</sub>
-
 <br/>
+<sub>Made with &#9829; - Sylvestre</sub>
 </div>
