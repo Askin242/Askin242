@@ -10,11 +10,7 @@
 
 <img src="./avatar.jpg" width="160" height="160" alt="avatar" style="border-radius: 50%;"/>
 
-<br/><br/>
-
 **`17 y/o CS Student @ Ynov Bordeaux · France`**
-
-<br/>
 
 <sub>I focus on what runs below the surface — reverse engineering anti-bot systems,<br/>analyzing browser fingerprinting, and building tools that go deeper than the docs.</sub>
 
