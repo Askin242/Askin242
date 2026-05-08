@@ -8,7 +8,7 @@
 
 <br>
 
-<img src="./avatar.jpg" width="160" height="160" alt="avatar" style="border-radius: 50%;"/>
+<img src="./avatar.png" width="160" height="160" alt="avatar" style="border-radius: 50%;"/>
 
 **`17 y/o CS Student @ Ynov Bordeaux · France`**
 
